@@ -1,0 +1,113 @@
+/*@font-face {
+	font-family: ;
+	src: url('');
+}*/
+
+
+/*STRUCTURE*/
+
+* {
+	font-size: 16px;
+}
+
+body {
+	position: fixed;
+	top: -8px;
+	left: -8px;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+}
+
+.wrapper.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.navibar {
+	position: fixed;
+	width: calc(100vw - 2rem);
+	height: 2rem;
+	padding: 1rem;
+
+	/*background-color: yellow;*/
+}
+
+.navibarlinks {
+	display: block;
+	margin-top: -1.75rem;
+
+	text-align: right;
+
+	/*background-color: red;*/
+}
+
+
+
+
+
+/*TYPOGRAPHY*/
+
+h1 {
+	font-family: serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+h1.title {
+	display: inline;
+}
+
+
+h2 {
+	display: inline;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+h2.navilink {
+	margin-left: 1rem;
+
+	font-family: sans-serif;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+
+p#landing-bio {
+	font-family: serif;
+	font-size: 3rem;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+a.navilink {
+	display: inline;
+
+	font-size: 1rem;
+}
+
+
+
+
+/*HOVER*/
+
+a {
+	transition-duration: 0.2s;
+}
+
+a:hover {
+	opacity: 0.6;
+
+	transition-duration: 0.2s;
+}
+
+
+
+
