@@ -1,0 +1,33 @@
+
+.wrapper.pages {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	column-gap: 1rem;
+
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	padding: 2rem;
+}
+
+p.column3 {
+	margin-left: 2.25rem;
+}
+
+
+/*IMAGES*/
+
+img.top {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 2;
+}
+
+
+
+/*TYPOGRAPHY*/
+
+span.keyword {
+	padding: 0rem 0.25rem 0rem 0.25rem;
+}
