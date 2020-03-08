@@ -185,7 +185,8 @@ li {
 	background-color: rgba(0,120,255);
 	color: white;
 	white-space: nowrap;
-	mix-blend-mode: multiply;
+	/*mix-blend-mode: multiply;*/
+	z-index: -100;
 }
 
 h1 {
@@ -215,6 +216,10 @@ h2.navilink {
 	font-family: "Akzidenz", sans-serif;
 	text-transform: lowercase;
 	text-align: right;
+}
+
+.navilink.highlight {
+	padding: 0rem 0.25rem 0rem 0.25rem;
 }
 
 
@@ -315,7 +320,46 @@ div.cursor {
 img.cursor {
 	width: 1.5rem;
 	height: 1.5rem;
+
+	display: none;
 }
+
+
+
+/*IMAGES*/
+
+img.icon {
+	width: 3rem;
+	margin: -1rem -1rem -2.5rem -1rem;
+	padding: 1rem;
+}
+
+img.icon.gif {
+	display: none;
+}
+
+img.icon.still {
+	display: inline;
+}
+
+.hoverimg {
+	position: fixed;
+	display: none;
+
+	width: 10rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 660px) {
+
+}
+
+
+
 
 
 
