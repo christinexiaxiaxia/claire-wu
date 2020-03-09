@@ -383,8 +383,16 @@ img.icon.still {
 	}
 
 	.column3.answers {
-		grid-column-start: 4;
-		grid-column-end: 7;
+		grid-column-start: 2;
+		grid-column-end: 5;
+	}
+
+	.column3.about {
+		margin-left: 2.25rem;
+	}
+
+	.row1 {
+		grid-row-start: 2;
 	}
 }
 
