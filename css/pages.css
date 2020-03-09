@@ -84,7 +84,7 @@ span.keyword {
 		grid-column-start: 1;
 		grid-column-end: 7;
 		grid-row-start: 3;
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	.wrapper.work {
@@ -96,7 +96,7 @@ span.keyword {
 		grid-column-start: 1;
 		grid-column-end: 7;
 		grid-row-start: 3;
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	.wrapper.about {
@@ -107,8 +107,8 @@ span.keyword {
 
 		grid-column-start: 1;
 		grid-column-end: 7;
-		grid-row-start: 3;
-		padding: 2rem;
+		grid-row-start: 2;
+		padding: 1rem;
 	}
 
 }
