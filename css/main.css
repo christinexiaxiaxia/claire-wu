@@ -124,6 +124,15 @@ body {
 	grid-row-start: 1;
 }
 
+div.work.pages {
+	position: relative;
+	height: 16rem;
+	margin-bottom: 1rem;
+
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
 
 
 
@@ -229,6 +238,17 @@ p.answers {
 }
 
 
+		/*TITLES FOR TILES*/
+
+p.work {
+	position: absolute;
+	bottom: -2rem;
+	left: 1rem;
+
+	opacity: 0;
+}
+
+
 
 
 
@@ -267,6 +287,19 @@ a:hover {
 
 	transition-duration: 0.2s;
 }
+
+
+p.work {
+	transition-duration: 0.2s
+}
+
+div.work.pages:hover p.work{
+	bottom: -0.5rem;
+	opacity: 1;
+
+	transition-duration: 0.2s
+}
+
 
 
 
@@ -311,6 +344,11 @@ img.icon.still {
 	display: none;
 
 	width: 10rem;
+}
+
+img.work {
+	height: auto;
+	width: 30rem;
 }
 
 
